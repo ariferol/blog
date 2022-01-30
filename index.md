@@ -2,7 +2,7 @@
 layout: default
 ---
 
-### NOT LiSTEM
+### Günlük NOT LiSTEM
 
 **Her konu detayı için, konu üzerinde tıklayın**.
 
