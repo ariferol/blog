@@ -11,6 +11,7 @@ ssh-keygen -t rsa -b 2048 -m PEM -C "email@hostname.com" (rsa key generate eder)
 Sonra pulic key i, git bash console dan clipboard a alıyoruz;
 
 cat ~/.ssh/id_rsa.pub | clip (public rsa ssh key i clippboard a atar)
+
 eval $(ssh-agent -s) (ssh agenti baslatir)
 
 Sonra gitlab repository deki profile ayarlarındaki SSH sekmesinden, clipboarddaki public SSH key i “Key” textbox ının içine focuslanıp, paste yaptıktan sonra “Add key” butonu ile ekliyoruz.
